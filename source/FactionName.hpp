@@ -30,6 +30,11 @@ enum class FactionName : int8_t {
   XxchaKingdom,
   YinBrotherhood,
   YssarilTribes,
+  LastBastion,
+  RalNelConsortium,
+  DeepwroughtScholarate,
+  CrimsonRebellion,
+  Firmament,
   Custom,
 };
 
@@ -60,6 +65,11 @@ const std::unordered_map<FactionName, std::string> labels<FactionName>{
     {FactionName::XxchaKingdom,         "Xxcha Kingdom"          },
     {FactionName::YinBrotherhood,       "Yin Brotherhood"        },
     {FactionName::YssarilTribes,        "Yssaril Tribes"         },
+    {FactionName::LastBastion,          "Last Bastion"           },
+    {FactionName::RalNelConsortium,     "The Ral Nel Consortium" },
+    {FactionName::DeepwroughtScholarate,"The Deepwrought Scholarate"},
+    {FactionName::CrimsonRebellion,     "The Crimson Rebellion"  },
+    {FactionName::Firmament,            "The Firmament"          },
     {FactionName::Custom,               "Custom"                 },
 };
 
@@ -90,6 +100,11 @@ const std::unordered_map<std::string, FactionName> spellings<FactionName>{
     {"Xxcha Kingdom",           FactionName::XxchaKingdom        },
     {"Yin Brotherhood",         FactionName::YinBrotherhood      },
     {"Yssaril Tribes",          FactionName::YssarilTribes       },
+    {"Last Bastion",            FactionName::LastBastion         },
+    {"The Ral Nel Consortium",  FactionName::RalNelConsortium    },
+    {"The Deepwrought Scholarate", FactionName::DeepwroughtScholarate },
+    {"The Crimson Rebellion",   FactionName::CrimsonRebellion    },
+    {"The Firmament",           FactionName::Firmament           },
     {"Custom",                  FactionName::Custom              },
 };
 
@@ -125,6 +140,11 @@ const std::set<FactionName, std::less<FactionName>> FactionNames{
     FactionName::XxchaKingdom,
     FactionName::YinBrotherhood,
     FactionName::YssarilTribes,
+    FactionName::LastBastion,
+    FactionName::RalNelConsortium,
+    FactionName::DeepwroughtScholarate,
+    FactionName::CrimsonRebellion,
+    FactionName::Firmament,
 };
 
 std::size_t number_of_non_custom_factions(
