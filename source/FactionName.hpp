@@ -66,10 +66,10 @@ const std::unordered_map<FactionName, std::string> labels<FactionName>{
     {FactionName::YinBrotherhood,       "Yin Brotherhood"        },
     {FactionName::YssarilTribes,        "Yssaril Tribes"         },
     {FactionName::LastBastion,          "Last Bastion"           },
-    {FactionName::RalNelConsortium,     "The Ral Nel Consortium" },
-    {FactionName::DeepwroughtScholarate,"The Deepwrought Scholarate"},
-    {FactionName::CrimsonRebellion,     "The Crimson Rebellion"  },
-    {FactionName::Firmament,            "The Firmament"          },
+    {FactionName::RalNelConsortium,     "Ral-Nel Consortium"     },
+    {FactionName::DeepwroughtScholarate,"Deepwrought Scholarate" },
+    {FactionName::CrimsonRebellion,     "Crimson Rebellion"      },
+    {FactionName::Firmament,            "Firmament"            },
     {FactionName::Custom,               "Custom"                 },
 };
 
@@ -101,10 +101,10 @@ const std::unordered_map<std::string, FactionName> spellings<FactionName>{
     {"Yin Brotherhood",         FactionName::YinBrotherhood      },
     {"Yssaril Tribes",          FactionName::YssarilTribes       },
     {"Last Bastion",            FactionName::LastBastion         },
-    {"The Ral Nel Consortium",  FactionName::RalNelConsortium    },
-    {"The Deepwrought Scholarate", FactionName::DeepwroughtScholarate },
-    {"The Crimson Rebellion",   FactionName::CrimsonRebellion    },
-    {"The Firmament",           FactionName::Firmament           },
+    {"Ral-Nel Consortium",      FactionName::RalNelConsortium    },
+    {"Deepwrought Scholarate",  FactionName::DeepwroughtScholarate },
+    {"Crimson Rebellion",       FactionName::CrimsonRebellion    },
+    {"Firmament",               FactionName::Firmament           },
     {"Custom",                  FactionName::Custom              },
 };
 
